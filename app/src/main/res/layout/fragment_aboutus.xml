@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/about_bg"
+    tools:context=".AboutusFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About us"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="@string/aboutus"
+            android:textSize="16dp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

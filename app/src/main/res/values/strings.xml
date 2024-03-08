@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutus">Welcome to CropMagic, your partner in transforming agriculture through innovative solutions! At CropMagic, we specialize in precision crop predictions, leveraging cutting-edge technology and weather analytics to guide farmers in optimizing their yields. Our suite of services extends beyond predictions, encompassing soil health analysis, precision farming tools, and personalized advisory services. Committed to sustainable agriculture, we empower farmers to make informed decisions, reduce risks, and enhance productivity. CropMagic is not just a company; its a collaborative hub where technology and farming converge to shape the future of agriculture. Join us on this journey, and lets cultivate success together with the magic of modern farming practices.</string>
+</resources>

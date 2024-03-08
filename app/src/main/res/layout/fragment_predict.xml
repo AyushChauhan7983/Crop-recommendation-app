@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/predictscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/predict_bg"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predict your crop"
+            android:textSize="35dp"
+            android:textColor="#3A3E3E"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/nitrogen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter nitrogen (max 120)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="280dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/phosphorous"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter phosphorous (max 80)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="280dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/potassium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter potassium (max 50)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="280dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/temperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter temperature (max 50)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/humidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter humidity (max 100)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/ph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter pH (max 8)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F0F0F0"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/rainfall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:hint="Enter rainfall (max 300)">
+
+                    </EditText>
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/predict"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Predict"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#45913B"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="90dp">
+
+                </Button>
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
